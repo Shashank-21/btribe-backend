@@ -1,0 +1,118 @@
+[
+  {
+    " _id": "641bfd24a61fc716e53d1fbc",
+    "name": "GDPI WAT Cracker 2023",
+    "variants": [
+      {
+        "name": "Crash",
+        "course": "641bfd24a61fc716e53d1fbc",
+        "maxSlots": 5,
+        "description": "Acing GDPI-WAT is crucial for your MBA admissions and BTRIBE is here with India's finest mentors to help you come out with flying colors! We're deeply invested in your success as ours is dependent on it. Add something unique for Crash Course",
+        "details": [
+          "5 Mock PIs with old IIM Alumni",
+          "Weekly preparation sessions from 99.5+ %ilers in CAT/ XAT/ IIFT and old IIM alumni",
+          "Guided interview answer preparation with old IIM mentors",
+          "Personalized prep with industry experts",
+          "Weekly Mock GDs / WAT / Domain-wise sessions",
+          "GK Compendium updated with the most relevant and crisp articles",
+          "Regular sessions on Why MBA/ Justifying Gap Years & Low Academics/ Economics/ Marketing/ Finance/ Consulting/ ProdMan/ Ops/ Careers after MBA/ Personality Interviews and many more...",
+          "College-specific sessions & form filling assistance",
+          "Dedicated group for members with mentors Recordings will be provided for all sessions"
+        ],
+        "mentorProfile": "Old IIM alumni, 99.5+%ilers! Currently working at aspirational companies(including MBB) with rich experience across domains",
+        "variantCost": 4999,
+        "variantSlug": "crash",
+        "_id": "641bfd92a61fc716e53d1fbf",
+        "createdAt": "2023-03-23T07:46:16.316Z",
+        "updatedAt": "2023-03-23T07:46:16.316Z",
+        "__v": 0
+      },
+      {
+        "name": "Complete",
+        "course": "641bfd24a61fc716e53d1fbc",
+        "maxSlots": 10,
+        "description": "Acing GDPI-WAT is crucial for your MBA admissions and BTRIBE is here with India's finest mentors to help you come out with flying colors! We're deeply invested in your success as ours is dependent on it. Add something unique for Complete Course",
+        "details": [
+          "5 Mock PIs with old IIM Alumni",
+          "Weekly preparation sessions from 99.5+ %ilers in CAT/ XAT/ IIFT and old IIM alumni",
+          "Guided interview answer preparation with old IIM mentors",
+          "Personalized prep with industry experts",
+          "Weekly Mock GDs / WAT / Domain-wise sessions",
+          "GK Compendium updated with the most relevant and crisp articles",
+          "Regular sessions on Why MBA/ Justifying Gap Years & Low Academics/ Economics/ Marketing/ Finance/ Consulting/ ProdMan/ Ops/ Careers after MBA/ Personality Interviews and many more...",
+          "College-specific sessions & form filling assistance",
+          "Dedicated group for members with mentors Recordings will be provided for all sessions"
+        ],
+        "mentorProfile": "Old IIM alumni, 99.5+%ilers! Currently working at aspirational companies(including MBB) with rich experience across domains",
+        "variantCost": 6999,
+        "variantSlug": "complete",
+        "_id": "641bfda7a61fc716e53d1fc2",
+        "createdAt": "2023-03-23T07:46:16.316Z",
+        "updatedAt": "2023-03-23T07:46:16.316Z",
+        "__v": 0
+      }
+    ],
+    "imageLink": "https://res.cloudinary.com/codemafia/image/upload/v1673077203/FontFiles/ptop7rdywo2k19xemnby.png",
+    "slug": "gdpi-wat-cracker-2023",
+    "createdAt": "2023-03-23T07:17:56.266Z",
+    "updatedAt": "2023-03-23T07:46:16.316Z",
+    "__v": 0
+  },
+  {
+    "_id": "641e7873e898745b8fe6d502",
+    "name": "Some Random Course",
+    "imageLink": "https://www.ncertbooks.guru/wp-content/uploads/2022/05/Course-details.png",
+    "variants": [
+      {
+        "name": "Crash",
+        "course": "641e7873e898745b8fe6d502",
+        "maxSlots": 5,
+        "description": "Vivamus molestie facilisis est. Fusce bibendum in nulla vitae dignissim. Pellentesque faucibus massa urna, at tristique mi vehicula nec. Aenean dignissim orci dui, ut euismod dui blandit at. Morbi consequat, metus at lacinia gravida, risus magna facilisis quam, non faucibus ligula magna eget justo. Pellentesque auctor justo vel blandit tempor. Pellentesque rhoncus mattis eros tristique tincidunt. Duis commodo ultricies odio, aliquet pharetra leo hendrerit in.",
+        "details": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Integer vulputate est eget ante fermentum, sed accumsan erat efficitur.",
+          "Nulla nec mi diam.",
+          "Ut justo ipsum, ullamcorper a orci sed, vulputate commodo augue",
+          "Ut at tincidunt purus, et hendrerit ante.",
+          "Etiam posuere risus at nisi dapibus, non cursus ligula dignissim.",
+          "Morbi molestie tempor eros et laoreet.",
+          "Mauris sit amet ullamcorper nibh, nec viverra lorem"
+        ],
+        "mentorProfile": "Cras at purus ac tortor egestas ultricies non in erat. Aliquam accumsan ex accumsan, tincidunt dolor nec, eleifend lorem. Maecenas efficitur magna tellus, nec consequat dui posuere consequat. Phasellus nulla nisi, iaculis sit amet cursus a, vulputate non purus. Vivamus aliquam feugiat auctor.",
+        "variantCost": 4999,
+        "variantSlug": "crash",
+        "_id": "641e7ad82e80de3bb040cab4",
+        "createdAt": "2023-03-25T04:40:06.580Z",
+        "updatedAt": "2023-03-25T04:40:06.580Z",
+        "__v": 0
+      },
+      {
+        "name": "Complete",
+        "course": "641e7873e898745b8fe6d502",
+        "maxSlots": 10,
+        "description": "Vivamus molestie facilisis est. Fusce bibendum in nulla vitae dignissim. Pellentesque faucibus massa urna, at tristique mi vehicula nec. Aenean dignissim orci dui, ut euismod dui blandit at. Morbi consequat, metus at lacinia gravida, risus magna facilisis quam, non faucibus ligula magna eget justo. Pellentesque auctor justo vel blandit tempor. ChatGPT enabled",
+        "details": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Integer vulputate est eget ante fermentum, sed accumsan erat efficitur.",
+          "Nulla nec mi diam.",
+          "Ut justo ipsum, ullamcorper a orci sed, vulputate commodo augue",
+          "Ut at tincidunt purus, et hendrerit ante.",
+          "Etiam posuere risus at nisi dapibus, non cursus ligula dignissim.",
+          "Morbi molestie tempor eros et laoreet.",
+          "Mauris sit amet ullamcorper nibh, nec viverra lorem"
+        ],
+        "mentorProfile": "Experts of ChatGPT. Phasellus nulla nisi, iaculis sit amet cursus a, vulputate non purus. Vivamus aliquam feugiat auctor.",
+        "variantCost": 6999,
+        "variantSlug": "complete",
+        "_id": "641e7b142e80de3bb040cab7",
+        "createdAt": "2023-03-25T04:40:06.580Z",
+        "updatedAt": "2023-03-25T04:40:06.580Z",
+        "__v": 0
+      }
+    ],
+    "slug": "complete",
+    "createdAt": "2023-03-25T04:28:35.641Z",
+    "updatedAt": "2023-03-25T04:40:06.580Z",
+    "__v": 0
+  }
+]
