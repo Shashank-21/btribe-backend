@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14.x
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - aws s3 sync public/ s3://your-bucket-name/
+      - aws cloudfront create-invalidation --distribution-id your-cloudfront-distribution-id --paths "/*"
