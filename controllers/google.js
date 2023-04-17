@@ -70,18 +70,26 @@ export const loginGoogleRedirect =
           redirectUrl = `${process.env.FRONTEND_BASE_URL}?reason=unauthorized`;
           return response.redirect(redirectUrl);
         }
-        const { refresh_token } = user;
-        if (refresh_token) {
-          if (refresh_token && !authClient.credentials.refresh_token) {
+
+        if (user.refresh_token) {
+          if (!tokens.refresh_token) {
             authClient.setCredentials({
               ...authClient.credentials,
-              refresh_token,
+              refresh_token: user.refresh_token,
             });
-            authClient.refreshAccessToken();
-          }
+          } else if (tokens.refresh_token !== user.refresh_token)
+            await user.updateOne(
+              { refresh_token: tokens.refresh_token },
+              { new: true }
+            );
+          authClient.refreshAccessToken();
         } else {
           if (tokens.refresh_token) {
-            await user.updateOne({ refresh_token: tokens.refresh_token });
+            await user.updateOne(
+              { refresh_token: tokens.refresh_token },
+              { new: true }
+            );
+            authClient.refreshAccessToken();
           }
         }
         if (user.role !== 0) {

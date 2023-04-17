@@ -12,10 +12,10 @@ import {
   deleteCourse,
 } from "../controllers/course.js";
 
-router.post("/course", createCourse);
+router.post("/course", requireSignIn, isApprovedAdmin, createCourse);
 router.get("/courses", listCourse);
 router.get("/course/:slug", readCourse);
-router.put("/course/:courseId", updateCourse);
+router.put("/course/:courseId", requireSignIn, isApprovedAdmin, updateCourse);
 router.delete(
   "/course/:courseId",
   requireSignIn,
