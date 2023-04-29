@@ -48,7 +48,7 @@ export const createSlot = async (request, response) => {
       mentor: request.user._id,
       dateTime,
       timeRef,
-      student: "",
+      student: null,
       waitList: [],
       purposeWaitList: [],
     }).save();
